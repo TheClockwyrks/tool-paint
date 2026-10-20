@@ -5,7 +5,7 @@
 //! are ordinary log operations (they replay in a preview); the 3D `render` is the
 //! one on-request, deferred render. Shares the operation log and config with the
 //! `texture` binary. See
-//! `apps/docs/src/content/docs/testing/asset-generation/material-binaries.md`.
+//! <https://docs.testcabinet.ai/testing/asset-generation/material-binaries/>.
 
 use std::path::PathBuf;
 use std::process::ExitCode;

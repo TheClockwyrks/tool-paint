@@ -6,7 +6,7 @@
 //! and layer store with the `ui` binary, so a run freely interleaves painterly and
 //! crisp-composition work. The subcommands' `--help` is the contract; no operations
 //! schema is seeded. See
-//! `apps/docs/src/content/docs/testing/asset-generation/ui-binaries.md`.
+//! <https://docs.testcabinet.ai/testing/asset-generation/ui-binaries/>.
 
 use std::path::PathBuf;
 use std::process::ExitCode;

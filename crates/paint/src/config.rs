@@ -1,11 +1,13 @@
 //! The seeded run configuration the orchestrator writes next to a UI or material
 //! workspace, and the `ui.json` / `material.json` output contracts core emits.
 //!
-//! These field shapes are the binary's side of the contract with `crates/driver`.
+//! These field shapes are the binary's side of the contract with the driver.
 //! Core defines its own parse-structs (as it does for the voxel tools); the names
 //! here mirror the documented output contract
-//! (`testing/asset-generation/{ui,material}-binaries.md`) and should be reconciled
-//! against core's seeding once it lands (see the crate's returned contracts note).
+//! ([UI](https://docs.testcabinet.ai/testing/asset-generation/ui-binaries/),
+//! [material](https://docs.testcabinet.ai/testing/asset-generation/material-binaries/))
+//! and should be reconciled against core's seeding once it lands (see the crate's
+//! returned contracts note).
 
 use std::path::PathBuf;
 

@@ -13,8 +13,10 @@
 //! [`Workspace`].
 //!
 //! The four binaries are thin CLIs over this library (the [`cli`] module, behind the
-//! `cli` feature). See the binary docs under
-//! `apps/docs/src/content/docs/testing/asset-generation/{ui,material}-binaries.md`.
+//! `cli` feature). See the binary docs for
+//! [UI](https://docs.testcabinet.ai/testing/asset-generation/ui-binaries/) and
+//! [material](https://docs.testcabinet.ai/testing/asset-generation/material-binaries/)
+//! assets.
 
 pub mod bake;
 pub mod blend;

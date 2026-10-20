@@ -7,7 +7,7 @@
 //! tiles without a seam by construction. It adds the procedural generators material
 //! work leans on — coherent noise, structural patterns, a domain warp, and a
 //! gradient map. It shares the operation log and config with the `pbr` binary. See
-//! `apps/docs/src/content/docs/testing/asset-generation/material-binaries.md`.
+//! <https://docs.testcabinet.ai/testing/asset-generation/material-binaries/>.
 
 use std::path::PathBuf;
 use std::process::ExitCode;

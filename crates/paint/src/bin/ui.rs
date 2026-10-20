@@ -3,7 +3,7 @@
 //! binary. It is the tool for the structural, pixel-crisp parts of an interface — a
 //! panel frame, a button body, a label, a set of scalable insets — while `paint`
 //! does the painterly shading. See
-//! `apps/docs/src/content/docs/testing/asset-generation/ui-binaries.md`.
+//! <https://docs.testcabinet.ai/testing/asset-generation/ui-binaries/>.
 
 use std::path::PathBuf;
 use std::process::ExitCode;
